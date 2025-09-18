@@ -1,0 +1,5 @@
+{
+  "bank_account_closure": [ "Name", "Account Number", "Mobile Number" ],
+  "address_change": [ "Name", "Account Number", "Old Address", "New Address", "Date" ],
+  "aadhaar_update": [ "Name", "Aadhaar Number", "PAN Number", "Date", "Place" ]
+}
