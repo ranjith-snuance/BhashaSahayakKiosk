@@ -11,7 +11,10 @@
   <ItemGroup>
     <None Remove="Assets\avatar_idle.png" />
     <None Remove="Assets\avatar_talking.gif" />
+    <None Remove="Assets\idle_avatar.png" />
+    <None Remove="Assets\idle_avatar2.png" />
     <None Remove="Assets\logo.png" />
+    <None Remove="Assets\talking_avatar_2.mp4" />
   </ItemGroup>
 
   <ItemGroup>
@@ -28,13 +31,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Assets\avatar_idle.png" />
     <Resource Include="Assets\avatar_talking.gif" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="appsettings.json" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="Assets\idle_avatar.png" />
+    <Content Include="Assets\idle_avatar2.png" />
     <Content Include="Assets\logo.png" />
+    <Content Include="Assets\talking_avatar_2.mp4" />
 	<Content Include="letterTemplates.json" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 
