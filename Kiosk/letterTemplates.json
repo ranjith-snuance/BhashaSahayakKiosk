@@ -1,5 +1,23 @@
 {
   "bank_account_closure": [ "Name", "Account Number", "Mobile Number" ],
   "address_change": [ "Name", "Account Number", "Old Address", "New Address", "Date" ],
-  "aadhaar_update": [ "Name", "Aadhaar Number", "PAN Number", "Date", "Place" ]
+  "aadhaar_update": [ "Name", "Aadhaar Number", "PAN Number", "Date", "Place" ],
+
+  "utilities_bescom_name_change": [ "Name", "Old Name", "New Name", "Consumer Number", "Address", "Date" ],
+  "utilities_bescom_new_connection": [ "Name", "Father/Mother Name", "Address", "Mobile Number", "Email", "ID Proof (Aadhaar/PAN)", "Load Requirement (kW)", "Date" ],
+
+  "utilities_bwssb_new_connection": [ "Name", "Address", "Property Number", "Mobile Number", "Email", "ID Proof (Aadhaar/PAN)", "Date" ],
+  "utilities_bwssb_complaint": [ "Name", "Consumer Number", "Address", "Mobile Number", "Complaint Details", "Date" ],
+
+  "utilities_bsnl_new_connection": [ "Name", "Father/Mother Name", "Address", "Mobile Number", "Email", "ID Proof (Aadhaar/PAN)", "Preferred Plan", "Date" ],
+  "utilities_bsnl_disconnection": [ "Name", "Phone Number", "Customer ID", "Address", "Reason", "Date" ],
+
+  "bank_loan_application": [ "Name", "Account Number", "Mobile Number", "Address", "Loan Type", "Loan Amount", "Income Details", "ID Proof (Aadhaar/PAN)", "Date" ],
+  "bank_cheque_book_request": [ "Name", "Account Number", "Branch Name", "Mobile Number", "Number of Leaves", "Date" ],
+
+  "govt_gram_panchayat_certificate_request": [ "Name", "Father/Mother Name", "Address", "Type of Certificate (Caste/Income/Domicile)", "Purpose", "Mobile Number", "Date" ],
+
+  "govt_bbmp_property_tax": [ "Name", "Property ID", "Address", "Mobile Number", "Ward Number", "Date" ],
+  "govt_bbmp_trade_license": [ "Applicant Name", "Business Name", "Business Address", "Type of Business", "Mobile Number", "Ward Number", "Date" ],
+  "govt_bbmp_birth_certificate": [ "Child Name", "Father Name", "Mother Name", "Date of Birth", "Place of Birth", "Hospital Name", "Address", "Mobile Number", "Date of Application" ]
 }

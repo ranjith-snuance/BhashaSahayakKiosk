@@ -372,10 +372,23 @@
                 <Border Background="#13242F" CornerRadius="28" Padding="24" Effect="{StaticResource SoftShadow}">
                     <Grid>
                         <Border CornerRadius="22" Background="#0F1D26" Padding="14">
-                            <Image Name="AvatarImage"
-                                   Source="/Assets/avatar_talking.gif"
-                                   Stretch="Uniform"
-                                   SnapsToDevicePixels="True"/>
+                            <Grid x:Name="AvatarHost" Width="850" Height="450">
+                              <!-- Idle/poster frame (use an existing static PNG/JPG) -->
+                              <Image x:Name="AvatarIdleImage"
+                                     Source="Assets/idle_avatar2.png"
+                                     Stretch="Uniform"
+                                     Visibility="Visible" />
+
+                              <!-- Talking video -->
+                              <MediaElement x:Name="AvatarMedia"
+                                            Stretch="Uniform"
+                                            LoadedBehavior="Manual"
+                                            UnloadedBehavior="Manual"
+                                            IsHitTestVisible="False"
+                                            Visibility="Collapsed" 
+                                            IsMuted ="True"
+                                            />
+                            </Grid>
                         </Border>
                     </Grid>
                 </Border>
